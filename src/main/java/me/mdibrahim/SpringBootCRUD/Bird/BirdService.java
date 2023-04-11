@@ -6,4 +6,5 @@ public interface BirdService {
     Bird add(Bird bird);
     List<Bird>getBirds();
     Bird update(Bird bird);
+    void delete(Integer id);
 }
