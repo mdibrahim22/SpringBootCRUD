@@ -9,4 +9,9 @@ public class RestMainController {
     public String rootMethod(){
         return "Hello Spring Boot !!";
     }
+
+    @GetMapping("/add")
+    public String addMethod(){
+        return "Data added successfull !!";
+    }
 }
